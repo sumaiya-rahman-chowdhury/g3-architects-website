@@ -248,6 +248,15 @@ line-height: normal;
     width: 90%;
   margin-left: 0px;
 }
+.footer{
+    padding: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.footer>p{
+    font-size: 10px;
+}
 .ten-years{
     position: static;
     max-width: 300px;
