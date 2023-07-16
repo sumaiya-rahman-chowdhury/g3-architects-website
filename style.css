@@ -208,7 +208,22 @@ font-weight: 700;
     height: 50px;
    
 }
-
+.footer{
+    border-radius: 8px;
+    background: #FFF4E7;
+  margin: 130px 80px;
+    text-align: center;
+    padding: 39px 390px;
+}
+.footer>p{
+    color: var(--dark-02, #424242);
+text-align: center;
+font-family: Work Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
 
 /* section .teams-container responsive using flex */
