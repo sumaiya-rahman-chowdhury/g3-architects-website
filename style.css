@@ -1,3 +1,90 @@
 *{
     font-family: 'Work Sans', sans-serif;
+margin: 0px;
+padding: 0px;
+}
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+nav>ul{
+    display: flex;
+}
+nav>ul>li{
+    list-style: none;
+    margin-right: 30px;
+
+}
+nav li a {
+    color:  #424242;
+    text-decoration: none;
+}
+.nav-title{
+    font-size: 2.6rem;
+    font-weight: 700;
+    color:#131313 ;
+}
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color:  #131313;
+}
+.banner-des{
+   color: var(--dark-03, #727272);
+text-align: center;
+margin-top: 1.875rem;
+margin-bottom:  1.875rem;
+}
+.btn-primary{
+    border-radius: 5px;
+background: #FF900E;
+padding:20px 25px ;
+color: aliceblue;
+border: 0px;
+text-transform: capitalize;
+font-size: 1.5rem;
+cursor: pointer;
+}
+.banner img{
+    margin-top:  1.875rem;
+    width: 100%;
+}
+/* responsive */
+@media screen and (max-width :576px) {
+    header{
+    background: rgba(255, 144, 14, 0.10);
+    padding:20px;
+}
+nav{
+flex-direction: column;
+}
+nav>ul{
+margin-top: 10px;
+justify-content: space-around;
+}
+}
+/* tablet or medium dev */
+@media screen and (min-width:576px) and (max-width:960px) {
+      header{
+    background: rgba(255, 144, 14, 0.10);
+    padding:40px;
+}
+nav{
+flex-direction: column;
+}
+nav>ul{
+margin-top: 10px;
+justify-content: space-around;
+}
 }
