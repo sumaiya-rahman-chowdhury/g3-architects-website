@@ -60,6 +60,60 @@ cursor: pointer;
     margin-top:  1.875rem;
     width: 100%;
 }
+main{
+    max-width: 1450px;
+    margin:0 auto;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding-right:70px ;
+    padding-left: 70px;
+}
+.teams-title{
+    font-size: 2.5rem;
+}
+.quick-list{
+color:#727272 ;
+font-weight: 500;
+}
+.of-our{
+    color: var(--dark-01, #131313);
+    font-weight: 700;
+}
+.span-features{
+    color: #FF900E;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .teams-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .teams-img-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 /* responsive */
 @media screen and (max-width :576px) {
     header{
